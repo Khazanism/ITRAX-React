@@ -10,11 +10,11 @@ function App() {
   // const element = <h2> hello, {myName} </h2>;
   return (
     <>
-    <div className="App">
-      <h1> hello react app </h1>
-      {greeting(myName)} 
-      {/* {element} */}
-    </div>
+      <div className="App">
+        <h1> hello react app </h1>
+        {greeting(myName)}
+        {/* {element} */}
+      </div>
     </>
   );
 }
