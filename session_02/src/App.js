@@ -1,12 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Welcome from './Components/Welcome';
-
+import logo from "./logo.svg";
+import "./App.css";
+// import Welcome from "./Components/Welcome";
+import AddTask from './components/AddTask';
+import TaskList from './components/TaskList';
 function App() {
   return (
+    <>
     <div className="App">
-      <Welcome />
+      {/* <Welcome /> */}
+      <AddTask />
+      <TaskList />
     </div>
+    </>
   );
 }
 
